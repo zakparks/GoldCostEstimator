@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
       "name": "Reddit Gold Analyzer",
-      "description": "converts the symbols for reddit silver/gold/platinum to dollar amounts",
+      "description": "Estimates how much money was paid to gild a post.",
       "version": "1.0",
       "content_scripts": [
           {
