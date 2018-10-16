@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+      "name": "Reddit Gold Analyzer",
+      "description": "converts the symbols for reddit silver/gold/platinum to dollar amounts",
+      "version": "1.0",
+      "content_scripts": [
+          {
+              "matches": [
+                  "*://*/*"
+              ],
+              "js": [
+                  "content.js"
+              ],
+              "run_at": "document_end"
+          }
+      ]
+  }
+  
